@@ -15,6 +15,8 @@
 		B7D28F9420692EE3008EF61A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D28F9220692EE3008EF61A /* LaunchScreen.storyboard */; };
 		B7D28F9F20692EE3008EF61A /* HygieneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D28F9E20692EE3008EF61A /* HygieneAppTests.swift */; };
 		B7D28FAA20692EE3008EF61A /* HygieneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D28FA920692EE3008EF61A /* HygieneAppUITests.swift */; };
+		B7D28FB820693A0B008EF61A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D28FB720693A0B008EF61A /* Restaurant.swift */; };
+		B7D30605206949FD000D9685 /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D30604206949FD000D9685 /* RatingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B7D28FA520692EE3008EF61A /* HygieneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HygieneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D28FA920692EE3008EF61A /* HygieneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HygieneAppUITests.swift; sourceTree = "<group>"; };
 		B7D28FAB20692EE3008EF61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D28FB720693A0B008EF61A /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		B7D30604206949FD000D9685 /* RatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				B7D28F8620692EE3008EF61A /* AppDelegate.swift */,
 				B7D28F8820692EE3008EF61A /* ViewController.swift */,
 				B7D28F8A20692EE3008EF61A /* Main.storyboard */,
+				B7D30604206949FD000D9685 /* RatingTableViewCell.swift */,
+				B7D28FB720693A0B008EF61A /* Restaurant.swift */,
 				B7D28F9020692EE3008EF61A /* Assets.xcassets */,
 				B7D28F9220692EE3008EF61A /* LaunchScreen.storyboard */,
 				B7D28F9520692EE3008EF61A /* Info.plist */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D28FB820693A0B008EF61A /* Restaurant.swift in Sources */,
 				B7D28F8920692EE3008EF61A /* ViewController.swift in Sources */,
+				B7D30605206949FD000D9685 /* RatingTableViewCell.swift in Sources */,
 				B7D28F8F20692EE3008EF61A /* HygieneApp.xcdatamodeld in Sources */,
 				B7D28F8720692EE3008EF61A /* AppDelegate.swift in Sources */,
 			);
